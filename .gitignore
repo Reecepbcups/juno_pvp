@@ -1,0 +1,19 @@
+world/
+versions/
+logs/
+libraries/
+cache/
+
+# Server Specific
+.console_history
+
+# Plugin Specific
+plugins/AsyncWorldEdit/plugins
+plugins/AsyncWorldEdit/undo
+
+plugins/WorldEdit/.archive-unpack/
+
+plugins/LuckPerms/libs
+plugins/LuckPerms/translations
+# May have to ignore the db as well? Unsure of size as we scale. Will move to MongoDB / Postgres in the future.
+# plugins/LuckPerms/luckperms-h2-v2.mv.db
