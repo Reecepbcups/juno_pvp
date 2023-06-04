@@ -13,3 +13,7 @@ The idea is as follows:
 This will be done my modifying my integration plugin found here
 
     https://github.com/Reecepbcups/craft/tree/master/minecraft-integration
+
+This plugin is now in the standalone repo
+
+    https://github.com/Reecepbcups/juno-minecraft-integration
