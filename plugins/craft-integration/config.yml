@@ -1,11 +1,12 @@
 # TODO: Change this to support Juno / any cosmos chain.
 REST_API_WALLET_ADDRESS: craft14svh76rr38wkj9d3g5qmsxyjm7dhxk34v57ygy
 DAO_TAX_WALLET_ADDRESS: craft1n3a53mz55yfsa2t4wvdx3jycjkarpgkf07zwk7
-API_MAKE_PAYMENT_ENDPOINT: http://localhost:8000/v1/dao/make_payment
+INTERNAL_API: http://localhost:4000
+API_MAKE_PAYMENT_ENDPOINT: http://localhost:4000/v1/dao/make_payment
 REDIS_KEY_EXPIRE_TIME: 0
 TX_QUERY_ENDPOINT: https://api.juno.strange.love/cosmos/tx/v1beta1/txs/{TENDERMINT_HASH}
 TAX_RATE: 0.05
-DEV_MODE: false
+DEV_MODE: true
 DEBUGGING_MSGS: true
 API_ENDPOINT: https://api.juno.strange.love/
 SIGNING_WEBAPP_LINK: http://15.204.162.18:8081/
@@ -15,5 +16,5 @@ MongoDB:
   uri: mongodb://localhost:27017
   database: crafteconomy
 Redis:
-  # uri: redis://user:password@localhost:6379
+  # uri: redis://:password@localhost:6379
   uri: redis://localhost:6379
