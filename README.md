@@ -1,6 +1,6 @@
-# Juno PvP
+# CosmosSDK PvP
 
-Juno PvP is a soon-to-be Minecraft server built on Juno.
+CosmosSDK PvP is a soon-to-be Minecraft server launched on Juno.
 
 The idea is as follows:
 
