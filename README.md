@@ -44,4 +44,12 @@ echo "* soft nofile 150000" | sudo tee -a /etc/security/limits.conf
 # create SSH key to add to github (https://github.com/settings/keys)
 ssh-keygen -t ed25519 -b 4096 -C "mcserver@gmail.com"
 
+# Local Development:
+# git clone git@github.com:Reecepbcups/cosmos-minecraft-integration.git
+# git clone git@github.com:Reecepbcups/cosmos-duels.git
+
+# Get the server files
+git clone git@github.com:Reecepbcups/cosmossdk-minecraft-pvp-server.git pvp-1
+# TODO: Download world backup curl command here & archive decode.
+
 ```
