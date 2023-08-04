@@ -11,7 +11,11 @@ cache/
 plugins/AsyncWorldEdit/plugins
 plugins/AsyncWorldEdit/undo
 
-plugins/WorldEdit/.archive-unpack/
+# plugins/WorldEdit/.archive-unpack/
+plugins/FastAsyncWorldEdit/sessions
+plugins/FastAsyncWorldEdit/lang
+plugins/FastAsyncWorldEdit/clipboard
+plugins/FastAsyncWorldEdit/history
 
 plugins/LuckPerms/libs
 plugins/LuckPerms/translations

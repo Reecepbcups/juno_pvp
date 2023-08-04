@@ -25,12 +25,14 @@ This plugin is now in the standalone repo
 (Hetzner Cloud VPS or Dedicated).
 
 ```bash
-# ubuntu 20
+# ubuntu 22
 sudo apt update
 sudo apt-get -y upgrade
 
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
-nvm install 20.5.0 
+nvm install 20.5.0
+
+echo "termcapinfo xterm* ti@:te@" > ~/.screenrc
 
 apt install openjdk-18-jre-headless screenfetch git make zip unzip htop screen docker.io wget curl gnupg2 software-properties-common apt-transport-https ca-certificates lsb-release
 systemctl enable docker && systemctl start docker
@@ -48,8 +50,10 @@ echo "* soft nofile 150000" | sudo tee -a /etc/security/limits.conf
 ssh-keygen -t ed25519 -b 4096 -C "mcserver@gmail.com"
 
 # Local Development:
-# git clone git@github.com:Reecepbcups/cosmos-minecraft-integration.git
 # git clone git@github.com:Reecepbcups/cosmos-duels.git
+
+# get the API & Craft plugins
+git clone git@github.com:Reecepbcups/cosmos-minecraft-integration.git
 
 # Get the server files
 git clone git@github.com:Reecepbcups/cosmossdk-minecraft-pvp-server.git pvp-1

@@ -11,12 +11,12 @@ DEV_MODE: true
 DEBUGGING_MSGS: true
 # API_ENDPOINT: https://api.juno.strange.love/
 API_ENDPOINT: https://uni-api.reece.sh:443/
-SIGNING_WEBAPP_LINK: http://15.204.162.18:8081/
+SIGNING_WEBAPP_LINK: http://localhost:8081/
 DAO_ESCROW_ENDPOINT_SECRET: 7821719491
 MongoDB:
-  # uri: mongodb://user:password@localhost:27017/?authSource=admin
-  uri: mongodb://localhost:27017
+  uri: mongodb://dbaccount:exploreminecraftpassword@localhost:27017/?authSource=admin
+  # uri: mongodb://localhost:27017
   database: crafteconomy
 Redis:
-  # uri: redis://:password@localhost:6379
-  uri: redis://localhost:6379
+  uri: redis://:exploreminecraftpassword@localhost:6379
+# uri: redis://localhost:6379
