@@ -30,7 +30,7 @@ PluginVariables:
   DISCORD: https://discord.gg/juno
   WEBSITE: https://junonetwork.io
   SERVERNAME: '&6&lJuno&f&lNetwork'
-  SERVER: Hub-01
+  SERVER: PvP-01
   SUPPORT: discord.com/juno
 
 
@@ -392,10 +392,8 @@ Events:
     - ''
     - '&2&l▎ &6&lSERVER &f%SERVER%'
     - ''
-    - '&2&l▎ &6&lSTORE &f%STORE%'
     - '&2&l▎ &6&lDISCORD &f%DISCORD%'
-    - ''
-    - '&7&o(( Currently &6&o%server_online% &7&oplayer(s) are playing ))'
+    - '&2&l▎ &6&lWEBSITE&f%WEBSITE%'
     - ''
     - '&8&l>&7&m----------------------------------------&8&l<'
     
