@@ -11,6 +11,8 @@ cache/
 plugins/AsyncWorldEdit/plugins
 plugins/AsyncWorldEdit/undo
 
+usercache.json
+
 # plugins/WorldEdit/.archive-unpack/
 plugins/FastAsyncWorldEdit/sessions
 plugins/FastAsyncWorldEdit/lang
