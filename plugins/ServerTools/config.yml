@@ -642,7 +642,7 @@ Bungee:
       ogskyblock: skyblock_emc
 
 AutoBroadcast:
-  Enabled: true
+  Enabled: false
    
 Donation:
   Enabled: true
