@@ -12,6 +12,7 @@ plugins/AsyncWorldEdit/plugins
 plugins/AsyncWorldEdit/undo
 
 usercache.json
+server.properties
 
 # plugins/WorldEdit/.archive-unpack/
 plugins/FastAsyncWorldEdit/sessions
@@ -23,3 +24,4 @@ plugins/LuckPerms/libs
 plugins/LuckPerms/translations
 # May have to ignore the db as well? Unsure of size as we scale. Will move to MongoDB / Postgres in the future.
 # plugins/LuckPerms/luckperms-h2-v2.mv.db
+

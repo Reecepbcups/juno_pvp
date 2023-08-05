@@ -34,7 +34,7 @@ nvm install 20.5.0
 
 echo "termcapinfo xterm* ti@:te@" > ~/.screenrc
 
-apt install openjdk-18-jre-headless screenfetch git make zip unzip htop screen docker.io wget curl gnupg2 software-properties-common apt-transport-https ca-certificates lsb-release
+apt install openjdk-18-jre-headless screenfetch git make zip unzip htop screen docker.io wget curl gnupg2 software-properties-common apt-transport-https ca-certificates lsb-release maven
 systemctl enable docker && systemctl start docker
 
 git config --global user.name "Reece Williams"
