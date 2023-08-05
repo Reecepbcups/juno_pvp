@@ -18,7 +18,7 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
 advancements:
-  disable-saving: false
+  disable-saving: true
   disabled:
   - minecraft:story/disabled
 settings:
@@ -150,8 +150,8 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    view-distance: default
-    simulation-distance: default
+    view-distance: 6
+    simulation-distance: 4
     thunder-chance: 100000
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
@@ -169,5 +169,5 @@ world-settings:
     verbose: false
 config-version: 12
 stats:
-  disable-saving: false
+  disable-saving: true
   forced-stats: {}
