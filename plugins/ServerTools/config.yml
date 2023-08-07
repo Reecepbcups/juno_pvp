@@ -51,13 +51,13 @@ Disabled:
     Permission: villagertrading.use
     Message: '&cVillager trading is disabled &7&o((%perm%))!'
   DisableCactusDamage:
-    Enabled: true
+    Enabled: false
   DisableCaneTowers:
-    Enabled: true
+    Enabled: false
   DisableJockeySpawning:
-    Enabled: true
+    Enabled: false
   DisableBlazeDrowning:
-    Enabled: true
+    Enabled: false
   DisableJoinLeaveMsg:
     Enabled: true
   DisableDisconnectSpamKick:
@@ -66,18 +66,18 @@ Disabled:
     Enabled: true
     Permission: ''
   DisableFallDamage:
-    Enabled: true
+    Enabled: false
     Permission: ''
   DisableEndermanTP:
-    Enabled: true
+    Enabled: false
   DisableWitherBlockBreak:
     Enabled: true
   DisableGolemPoppies:
-    Enabled: true
+    Enabled: false
   DisableStackablePotions:
-    Enabled: true
+    Enabled: false
   DisablePhantomSpawn:
-    Enabled: true
+    Enabled: false
   DisableIceMelt:
     Enabled: true
   DisableBlockBreaking:
@@ -112,7 +112,7 @@ Disabled:
     NightWorlds:
     - 'None'
   DisableEntityThrowing:
-    Enabled: true
+    Enabled: false
     Items:
     - 'EYE_OF_ENDER'
     - 'EGG'
@@ -185,10 +185,10 @@ Core:
     Permission: essentials.ext
     StaffPermission: essentials.ext.others
   Hat:
-    Enabled: true
+    Enabled: false
     Permission: essentials.hat
   Workbench:
-    Enabled: true
+    Enabled: false
     Permission: essentials.workbench
   Fly:
     Enabled: true
@@ -264,7 +264,7 @@ Commands:
   AltTP:
     Enabled: false
   ChangeSlots:
-    Enabled: true
+    Enabled: false
     Permission: changeslots.use
     AnnounceFullToPermissionedUsers: true
   ChatPoll:
@@ -298,7 +298,7 @@ Commands:
     WalkPermission: tools.speed.walk
  
   StaffList:
-    Enabled: true
+    Enabled: false
     groups:
       owner: ' &8&l<&d&lOWNER&8&l> &f» &d'
       manager: ' &8&l<&6&lMANAGER&8&l> &f» &6'
@@ -398,7 +398,7 @@ Events:
     - '&8&l>&7&m----------------------------------------&8&l<'
     
   NoBedExplosionInNether:
-    Enabled: true
+    Enabled: false
     
   # https://helpch.at/docs/1.12.2/org/bukkit/Material.html  
   Launchpads:
@@ -439,12 +439,10 @@ Moderation:
     BypassPerm: colon.use
     
   Freeze:
-    Enabled: false
+    Enabled: true
     Permission: Freeze.use
     Message:
     - '&6&l[!]&e You have been frozen. &7&o(( Do not log out ))'
-    - '&dYou have &f2 &dminutes to join the discord:'
-    - '&f - &d%SUPPORT%'
     
   WhitelistBypass:
     Enabled: true
@@ -456,7 +454,7 @@ Moderation:
     Enabled: true
  
   Report:
-    Enabled: false
+    Enabled: true
     Cooldown: 30
     CooldownMSG: '&4[!] &cYou can not make another report for %timeleft% seconds!'
     ReportSuccess: '&c%reporter%&f reported &c%offender% &ffor &c%reason%'
@@ -538,7 +536,7 @@ Misc:
       - 'pg join'
 
   Visibility:
-    Enabled: true
+    Enabled: false
     bypassPerm: visibility.bypass
     
   BucketStacker:
@@ -558,18 +556,8 @@ Misc:
     Enabled: true
     Permission: cmdalias.bypass
     cmds:
-      colors: essentials:info colors
-      menu: ultracosmetics menu main
-      warzone: warp pvp
-      cane: tokens
-      croptop: croptop cane
-      votetop: superbvote top
-      v: essentials:vanish
-      ce: enchanter
-      cactus: cactusshop
       mutechat: servertools:mutechat
       clearchat: servertools:clearchat
-      vote: vote sites
     disabled:
     - 'pl'
     - 'plugins'
@@ -645,7 +633,7 @@ AutoBroadcast:
   Enabled: false
    
 Donation:
-  Enabled: true
+  Enabled: false
   Permission: donation.use
   Message:
   - ''
@@ -660,7 +648,7 @@ Donation:
   
 FancyAnnounce:
   # You can use the %player% variable on any line
-  Enabled: true
+  Enabled: false
   Permission: announce.use
   Groups:
     bosses:

@@ -71,8 +71,8 @@ Kits:
     - '{ material:ARROW amount:8 meta:{  } }'
 
 Arenas:
-  '1':
-    Name: '1'
+  '10':
+    Name: remove
     Countdown-Seconds: 15
     Spawn-One:
       World: world
@@ -95,3 +95,147 @@ Arenas:
       Z: 516.5651267381534
       Yaw: -89.49027
       Pitch: 2.1161199
+  '11':
+    Name: jungle
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 34.5999300096517
+      Y: 80.0
+      Z: 290.2899605659358
+      Yaw: 179.63371
+      Pitch: -1.755663
+    Spawn-Two:
+      World: world
+      X: 34.576201578920355
+      Y: 80.0
+      Z: 252.5413563980273
+      Yaw: 0.75683594
+      Pitch: -1.1905155
+    Lobby:
+      World: world
+      X: 23.96712494465299
+      Y: 96.0
+      Z: 264.0410179072403
+      Yaw: -91.083145
+      Pitch: 43.740467
+  '12':
+    Name: desert
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 111.86808745812866
+      Y: 80.0
+      Z: 278.26296050460394
+      Yaw: 179.44304
+      Pitch: -1.3688539
+    Spawn-Two:
+      World: world
+      X: 111.83662609504515
+      Y: 80.0
+      Z: 250.12810290031877
+      Yaw: 0.56762695
+      Pitch: -1.4630497
+    Lobby:
+      World: world
+      X: 98.78840898150366
+      Y: 97.0
+      Z: 266.4145278637463
+      Yaw: -90.98876
+      Pitch: 35.27307
+  '13':
+    Name: ice
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 181.24711819311776
+      Y: 78.0
+      Z: 288.40860183365174
+      Yaw: -179.1553
+      Pitch: -0.52113426
+    Spawn-Two:
+      World: world
+      X: 181.8269123927937
+      Y: 78.0
+      Z: 241.58324935483944
+      Yaw: 1.9692688
+      Pitch: -0.8037247
+    Lobby:
+      World: world
+      X: 169.30000001192093
+      Y: 97.0
+      Z: 265.28837622124394
+      Yaw: -90.153534
+      Pitch: 39.040768
+  '14':
+    Name: colorful
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 248.3596158703176
+      Y: 80.0
+      Z: 290.20687480751366
+      Yaw: 178.9347
+      Pitch: -0.4268615
+    Spawn-Two:
+      World: world
+      X: 246.49480367153063
+      Y: 80.0
+      Z: 246.04281512953935
+      Yaw: 0.259482
+      Pitch: -1.463012
+    Lobby:
+      World: world
+      X: 237.32841546761955
+      Y: 101.0
+      Z: 261.7311210339001
+      Yaw: -90.35538
+      Pitch: 36.026463
+  '15':
+    Name: hell
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 321.2700206430161
+      Y: 86.0
+      Z: 284.0274968944661
+      Yaw: -177.67421
+      Pitch: 0.5153996
+    Spawn-Two:
+      World: world
+      X: 338.72523846268155
+      Y: 86.0
+      Z: 249.25976392200084
+      Yaw: 1.9555212
+      Pitch: -2.3102956
+    Lobby:
+      World: world
+      X: 311.4017892804919
+      Y: 106.0
+      Z: 264.45549549964426
+      Yaw: -89.69915
+      Pitch: 41.490788
+  '16':
+    Name: castle
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 406.3343771060995
+      Y: 80.0
+      Z: 287.4107988097104
+      Yaw: -178.90176
+      Pitch: -0.42614716
+    Spawn-Two:
+      World: world
+      X: 404.6253624733841
+      Y: 80.0
+      Z: 239.99708188070838
+      Yaw: 0.24343872
+      Pitch: -0.2377575
+    Lobby:
+      World: world
+      X: 394.3876903449756
+      Y: 105.0
+      Z: 264.571487875499
+      Yaw: -89.33698
+      Pitch: 46.67042

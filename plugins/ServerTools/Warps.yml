@@ -1,5 +1,6 @@
 spawn:
   location: world;0;70;0;91.44937;-4.4277143
-duels: {}
 duels1:
   location: world;404;70;512;-90.01431;0.7539492
+prettyduels:
+  location: world;68;80;222;-72.83381;42.011272
