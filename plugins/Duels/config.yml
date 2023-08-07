@@ -71,31 +71,7 @@ Kits:
     - '{ material:ARROW amount:8 meta:{  } }'
 
 Arenas:
-  '10':
-    Name: remove
-    Countdown-Seconds: 15
-    Spawn-One:
-      World: world
-      X: 434.48626897446763
-      Y: 69.0
-      Z: 482.398223839304
-      Yaw: 2.3048992
-      Pitch: -2.4953747
-    Spawn-Two:
-      World: world
-      X: 434.4081509647962
-      Y: 69.0
-      Z: 550.3600605803903
-      Yaw: -178.34853
-      Pitch: -2.4956608
-    Lobby:
-      World: world
-      X: 408.6540533865116
-      Y: 70.0
-      Z: 516.5651267381534
-      Yaw: -89.49027
-      Pitch: 2.1161199
-  '11':
+  '1':
     Name: jungle
     Countdown-Seconds: 15
     Spawn-One:
@@ -119,7 +95,7 @@ Arenas:
       Z: 264.0410179072403
       Yaw: -91.083145
       Pitch: 43.740467
-  '12':
+  '2':
     Name: desert
     Countdown-Seconds: 15
     Spawn-One:
@@ -143,7 +119,7 @@ Arenas:
       Z: 266.4145278637463
       Yaw: -90.98876
       Pitch: 35.27307
-  '13':
+  '3':
     Name: ice
     Countdown-Seconds: 15
     Spawn-One:
@@ -167,7 +143,7 @@ Arenas:
       Z: 265.28837622124394
       Yaw: -90.153534
       Pitch: 39.040768
-  '14':
+  '4':
     Name: colorful
     Countdown-Seconds: 15
     Spawn-One:
@@ -191,7 +167,7 @@ Arenas:
       Z: 261.7311210339001
       Yaw: -90.35538
       Pitch: 36.026463
-  '15':
+  '5':
     Name: hell
     Countdown-Seconds: 15
     Spawn-One:
@@ -215,7 +191,7 @@ Arenas:
       Z: 264.45549549964426
       Yaw: -89.69915
       Pitch: 41.490788
-  '16':
+  '6':
     Name: castle
     Countdown-Seconds: 15
     Spawn-One:
