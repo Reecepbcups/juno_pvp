@@ -65,7 +65,11 @@ Kits:
       Boots: '{ material:iron_boots amount:1 meta:{ } }'
     Inventory:
     - '{ material:iron_sword amount:1 meta:{ } }'
+    - '{ material:BOW amount:1 meta:{  } }'
+    - '{ material:GOLDEN_APPLE amount:16 meta:{  } }'
     - '{ material:bread amount:64 meta:{ } }'
+    - '{ material:ARROW amount:8 meta:{  } }'
+
 Arenas:
   '1':
     Name: '1'
