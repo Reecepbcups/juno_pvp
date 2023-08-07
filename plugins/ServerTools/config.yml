@@ -26,12 +26,10 @@ Language: en
 
 # Can be used within servertools with %NAME%.
 PluginVariables:
-  STORE: https://store.WEBSITE.co
-  DISCORD: https://discord.gg/juno
-  WEBSITE: https://junonetwork.io
+  DISCORD: https://discord.gg/KbhvQ6NyGp
+  WEBSITE: https://craft-app.reece.sh/
   SERVERNAME: '&6&lJuno&f&lNetwork'
   SERVER: PvP-01
-  SUPPORT: discord.com/juno
 
 
 FeaturesGUI:

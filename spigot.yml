@@ -150,8 +150,8 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    view-distance: 6
-    simulation-distance: 4
+    view-distance: default
+    simulation-distance: 12
     thunder-chance: 100000
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true

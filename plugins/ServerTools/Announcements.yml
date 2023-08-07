@@ -15,7 +15,7 @@ Footer:
 - ''
 - '&8&l&m------------------------------------&7'
 - ''
-Interval: 50
+Interval: 120
 Messages:
   # where_to_edit:
   # - '&7&o((Edit me in ServerTools/Announcements.yml))'
@@ -25,11 +25,7 @@ Messages:
   # - ' &7- &f<command=/heal /> &fClick me to run the heal command'
   # rules:
   # - ' &7- &n%RULES%'
-  discord:
-  # - ' &7- &f%DISCORD%'
+  thanks:
   - ' &7- &fThank for playing on Juno-Network (Craft Alpha)'
-  # store:
-  # - ' &7- &f%STORE%'
-  # vote_reward:
-  #   - '<command=/vote/><center>&d/Vote &ffor XX hours of &d/CMD&f!'
-  #   - '<center>&7&o(Click to run the vote command)'
+  faucet:
+  - '<link=https://craft-app.reece.sh/faucet/><center>Out of funds? Click here for the faucet'
