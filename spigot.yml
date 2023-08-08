@@ -59,12 +59,19 @@ commands:
   send-namespaced: true
 world-settings:
   default:
+    hopper-can-load-chunks: false
+    seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
     below-zero-generation-in-existing-chunks: true
     verbose: false
     merge-radius:
       exp: 3.0
       item: 2.5
     growth:
+      torchflower-modifier: 100
+      pitcherplant-modifier: 100
       cactus-modifier: 100
       cane-modifier: 100
       melon-modifier: 100
@@ -112,6 +119,7 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
+      display: 128
       players: 48
       animals: 12
       monsters: 12
