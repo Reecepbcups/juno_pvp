@@ -1,5 +1,7 @@
 # CosmosSDK PvP
 
+[Play Guide Walkthrough](./GUIDE.md)
+
 CosmosSDK PvP is a soon-to-be Minecraft server launched on Juno.
 
 The idea is as follows:

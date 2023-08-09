@@ -7,8 +7,8 @@ REDIS_KEY_EXPIRE_TIME: 0
 # TX_QUERY_ENDPOINT: https://api.juno.strange.love/cosmos/tx/v1beta1/txs/{TENDERMINT_HASH}
 TX_QUERY_ENDPOINT: https://uni-api.reece.sh:443/cosmos/tx/v1beta1/txs/{TENDERMINT_HASH}
 TAX_RATE: 0
-DEV_MODE: true
-DEBUGGING_MSGS: true
+DEV_MODE: false
+DEBUGGING_MSGS: false
 # API_ENDPOINT: https://api.juno.strange.love/
 API_ENDPOINT: https://uni-api.reece.sh:443/
 SIGNING_WEBAPP_LINK: http://craft-app.reece.sh/

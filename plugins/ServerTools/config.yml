@@ -388,10 +388,10 @@ Events:
     - ''
     - '&8&l>&7&m-------------&r %SERVERNAME% &7&m------------&8&l<'
     - ''
-    - '&2&l▎ &6&lSERVER &f%SERVER%'
+    - '&e&l▎ &6&lSERVER &f%SERVER%'
     - ''
-    - '&2&l▎ &6&lDISCORD &f%DISCORD%'
-    - '&2&l▎ &6&lWEBSITE&f%WEBSITE%'
+    - '&e&l▎ &6&lDISCORD &f%DISCORD%'
+    - '&e&l▎ &6&lWEBSITE &f%WEBSITE%'
     - ''
     - '&8&l>&7&m----------------------------------------&8&l<'
     
