@@ -64,7 +64,7 @@ Disabled:
     Enabled: true
     Permission: ''
   DisableFallDamage:
-    Enabled: false
+    Enabled: true
     Permission: ''
   DisableEndermanTP:
     Enabled: false
@@ -112,8 +112,7 @@ Disabled:
   DisableEntityThrowing:
     Enabled: false
     Items:
-    - 'EYE_OF_ENDER'
-    - 'EGG'
+    - 'nothing'
   DisableWaterBreakingRedstone:
     Enabled: true
     items:
@@ -129,6 +128,11 @@ Disabled:
     - 'REDSTONE_COMPARATOR_ON'
 
   DisableMobAI:
+    Enabled: true
+    worldsToDisable:
+    - 'world'
+    
+  DisableMobSpawning:
     Enabled: true
     worldsToDisable:
     - 'world'
