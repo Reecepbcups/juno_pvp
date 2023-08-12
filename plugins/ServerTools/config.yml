@@ -547,7 +547,7 @@ Misc:
     superiorskyblock: false
     
   Holograms:
-    Enabled: false
+    Enabled: true
     
   ScheduledTask:
     Enabled: false
@@ -650,21 +650,29 @@ Donation:
   
 FancyAnnounce:
   # You can use the %player% variable on any line
-  Enabled: false
+  Enabled: true
   Permission: announce.use
   Groups:
-    bosses:
-      ArgumentsSyntax: <BossName> <Location>
+    starting:
+      ArgumentsSyntax: <Player1> <Player2> <Arena> <Seconds>
       CenterMessage: true
       Message:
-      - '&d&m-----------------------------------------------------'
+      - '&e&m-------------&e✧&f✧&e✧ &e&lMatch Starting &e✧&f✧&e✧&e&m-------------'
       - ''
-      - '&d✧&f✧&5✧ &d&lBoss Spawn &5✧&f✧&d✧'
+      - '&e%arg-1% &fVS. &e%arg-2%'
+      - '&fin &e%arg-4% seconds'
+      - '&7&o(( /duels spectate %arg-3% ))'
+      - '&e&m--------------------------------------------------'
+    winner:
+      ArgumentsSyntax: <Winner> <Loser> <BetAmount> <HealthLeft>
+      CenterMessage: true
+      Message:
+      - '&f&m-------------&2✧&f✧&2✧ &a&lMatch Complete &2✧&f✧&2✧&f&m-------------'
+      - '&2* &a&lWinner &f&l%arg-1%'
+      - '&4* &c&lLoser &7%arg-2%'
       - ''
-      - '&5* &dA &f%arg-1% &djust Spawned at'
-      - '&f%arg-2%'
-      - ''
-      - '&d&m-----------------------------------------------------'
+      - '&f* &f&lHealth Left: &f%arg-4%'
+      - '&f&m--------------------------------------------------'
 
 
 ServerInfoCMDS:
