@@ -1,0 +1,87 @@
+{
+   "Ready": true,
+   "Checkpoint": {
+      "0": {
+         "CheckpointX": -30,
+         "CheckpointY": 70,
+         "CheckpointZ": 9,
+         "Location": {
+            "world": "world",
+            "x": -29.5,
+            "y": 71.5,
+            "z": 9.5,
+            "pitch": 31.413656,
+            "yaw": 56.17694
+         }
+      },
+      "1": {
+         "CheckpointX": -43,
+         "CheckpointY": 79,
+         "CheckpointZ": -6,
+         "Location": {
+            "world": "world",
+            "x": -42.5,
+            "y": 80.5,
+            "z": -5.5,
+            "pitch": 59.766224,
+            "yaw": 120.60132
+         }
+      },
+      "2": {
+         "CheckpointX": -63,
+         "CheckpointY": 80,
+         "CheckpointZ": -6,
+         "Location": {
+            "world": "world",
+            "x": -62.5,
+            "y": 81.5,
+            "z": -5.5,
+            "pitch": 48.65109,
+            "yaw": 13.971008
+         }
+      },
+      "3": {
+         "CheckpointX": -40,
+         "CheckpointY": 70,
+         "CheckpointZ": 23,
+         "Location": {
+            "world": "world",
+            "x": -39.5,
+            "y": 71.5,
+            "z": 23.5,
+            "pitch": 49.96989,
+            "yaw": -78.058105
+         }
+      },
+      "4": {
+         "CheckpointX": 6,
+         "CheckpointY": 72,
+         "CheckpointZ": 19,
+         "Location": {
+            "world": "world",
+            "x": 6.5,
+            "y": 73.5,
+            "z": 19.5,
+            "pitch": 23.595161,
+            "yaw": -150.78741
+         }
+      },
+      "5": {
+         "CheckpointX": 5,
+         "CheckpointY": 90,
+         "CheckpointZ": 0,
+         "Location": {
+            "world": "world",
+            "x": 5.5,
+            "y": 91.5,
+            "z": 0.5,
+            "pitch": 69.27926,
+            "yaw": 178.7693
+         }
+      }
+   },
+   "Views": 9,
+   "Checkpoints": 5,
+   "Creator": "Reecepbcups",
+   "Name": "spawn"
+}
