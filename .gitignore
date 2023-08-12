@@ -20,6 +20,15 @@ plugins/FastAsyncWorldEdit/lang
 plugins/FastAsyncWorldEdit/clipboard
 plugins/FastAsyncWorldEdit/history
 
+# Parkour
+plugins/Parkour/other/
+plugins/Parkour/players/
+plugins/Parkour/sessions/
+plugins/Parkour/Parkour.log
+
+# NPCs
+plugins/Citizens/lib/
+
 plugins/LuckPerms/libs
 plugins/LuckPerms/translations
 # May have to ignore the db as well? Unsure of size as we scale. Will move to MongoDB / Postgres in the future.

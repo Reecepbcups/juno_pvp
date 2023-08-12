@@ -1,0 +1,198 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 5
+npc:
+  '5':
+    metadata:
+      cached-skin-uuid: 892f8bb6-df50-49dd-b06a-93b9de72e27e
+      cached-skin-uuid-name: noah
+    name: '&F&LDUELS STATS'
+    uuid: 2105b19b-7e97-43be-8b47-ffeef8053bf1
+    traits:
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: duels top
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      owner:
+        uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
+      location:
+        bodyYaw: -35.107727
+        world: world
+        x: '-28.5019'
+        y: '71.0'
+        z: '-8.5287'
+        yaw: '-35.1077'
+        pitch: '0.0436'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: qjgaMiCmsOtQKNds/8q94GJm51rsLg9Ac6kl8iRUUzrPkdDHC4l7tbz34j46arT11li6mkEHram4TTRk+Kk0M3qwhX4HMlYvNfnwrf0k4xMnrT4KJ0qQevvB27H5rKq14rqgt30z33pCrUG/f8c9oyO/yw1Mv3jNP8JNrMtrIoy28BKGIoUyWEPcMCzTNq8AOE5eOOQgrwG7Z6nEsEtBpNhvdZowDZe7Gw8zl1WR58hE7fQSTjbRHHWVUlU/V9MNPcgvMvsr8ES3Rj3Zm2XdjA2HIwOSM57ocpTG8dhgSWWp7/R8YctvP3+envgk8ZiWMXR35v6aYrhxwgZzyi42S+jHWPR5ihQQsP5KLtSWn4x42PZmuMFj7xoNGMrlWrujXdq8WYcezYgY0HiGKgaBDbzU4Cqa06o/Ka/9/OpxpL56cuitRWU4jSfisHzJlRcX5xGSngg8DbKs61PKeRSzn5X86Ers/JM4w9Q/Zt9oSBo9voQFHOrGYu2HVZx3AAOhE2MzW6K1WzicHjl6K6XlI8hxyJhgNdB5K4UqWXmyPYHA3Szn3XD+5+Zaj+Yx/66xAw2Qdlisc2GnGfiKQR6n1nJAcESUvT1oDu4rqp/SvWU0RSk1KVqufM+s5EQyXQKmgBhUWFXbhZe7RmsrI9+OFHMIqUdyd3TVVP5u/ZIsctg=
+        skinName: noah
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NTM5NTExNywKICAicHJvZmlsZUlkIiA6ICI4OTJmOGJiNmRmNTA0OWRkYjA2YTkzYjlkZTcyZTI3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb2FoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5YTUwYjNiMThlMmU5M2IxZThhMWU5NjE4ZDJmZmRjOWNlMTE0ZThlYTU0NTA5MWQ2MTU2YmFlZmM2YjI0ODgiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
+        updateSkins: false
+      spawned: true
+    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,skintrait,spawned,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '2':
+    metadata:
+      cached-skin-uuid: c50e36fa-d232-47f1-915d-413edd75df89
+      cached-skin-uuid-name: wallet
+    name: '&e&lCONNECT WALLET'
+    uuid: ab4ea9b9-172c-4e8c-881e-5174be7b458b
+    traits:
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: gencode
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      owner:
+        uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
+      location:
+        bodyYaw: -123.596405
+        world: world
+        x: '-34.5313'
+        y: '71.0'
+        z: '6.4086'
+        yaw: '-123.5964'
+        pitch: '3.435'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: c7JPtLyQt2oKfeITSusaTp/qPO3VPidXdIxyHexh8jhw0ov7fh+ZyKsnAI/pum9M/gBQpyue5cMpGQivfaNO2Cc6Xy0rPA8hQ9+eNLLMgnGz8tN4hxh+yjYE4pXoMxgdK+S2XXAM0IaJrNncyzY80NhVdZ5LqQyIQTLiN0eEYBJGH6vWXD9qtAWgvWWmvwoi8C6QR5/u4/4ChKOUzqeFHBIwS0QvfHY8Acfuybntd3jtiCrOuvsffOqRStKpgRNYHcRdWHPnnJ2/7fvi4RiR9X04vSwGA+fkXECFUwk9T4DoI9P+9Ifs0PnJA64j6Bs3/YMR5ZSExHZEABmT7oEoK6R11mwVZJ63Gaj7P9xYzlKjZyNi89nlsKzs4nTzRZcpeW+QQMEySEWrguhI9WoX7iJT2Q5aMK4QENi3KY2ifdemGzgC8fYEAe90D8p8dc7zvSHcLL7lgcGghn1pD/vX7CAOB2aklDec38VkediJVIMzGzLhSld4r/lDL1VSerY1/fXgPjnzJZ5UlEMrXe3XA2xUHtDqSnVn1t0t72YTjxFuqgTMCGRpeILj1nzD771Doax2o/UIoJyblRK/8JfTRiBjpetX8kdiBuZWn9/ik10P6GWZ+EH1xlL+d/w2syT7XKPxsKZXWkswEb756XyYhV59cX37b1aRnrjJEbxZ1ew=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NTMyNTEwNCwKICAicHJvZmlsZUlkIiA6ICJjNTBlMzZmYWQyMzI0N2YxOTE1ZDQxM2VkZDc1ZGY4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWxsZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5Mzk4YTYwOTc1ZTExNjFkOWQ4MjM3OWRiODdiMWY3MGI4YTM5ZDk2ODFiMTg5YTMzYzQyYWU5YjA3MWY0MSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,hologramtrait,skintrait,spawned,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      cached-skin-uuid: f589b653-d251-428b-a8c7-0f3a3a3011f3
+      cached-skin-uuid-name: icarusv
+    name: '&e&lDUELS MENU'
+    uuid: 93ec451e-5707-4e92-821b-999fd39016c7
+    traits:
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: duels
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      owner:
+        uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
+      location:
+        bodyYaw: -89.47107
+        world: world
+        x: '-36.6488'
+        y: '71.0'
+        z: '0.4381'
+        yaw: '-89.4711'
+        pitch: '0.2324'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: TS3vZmmnWcS7gXe23H8HTExGG/bOI5OkqtR+tr8WVdVWU4ZMQkosOPzwwylrjl1gw1VWD2exqaUBm/mBEIP8AZSlZ5b3+dx6X12vQrB64/m3Oaw2y6LWdBWGjrNy9uOhy5O8ASJysguBJjp6thsml966tY9WAU/uBhEex79A9hTRnYF3YXIn0/WnVIS5WcRMQhkzepOowGmFkPWtWog/aXiAXTS/zj3KDQvLuUrbJoqtfhtaZF0BcoRwEoAI7h8BzKcIFd4qejrA2RE1QCwfyTUD7z11tE7HiveHXZguPGSE2LAIouWtCjPcH2sinvl0I/MjmwnK4aIj5BcuOMTV2K0eRWgItisdTIDpJrcHTjXyguk7pzm3YTEX5t1uG1NvsTfpaIscpyhgJD7XHaUNQebO+4y0noWur3a+XPkV6SFn/RfKCbCJh9YZNxSvKM9b4bk3MHfxl0VZoD791yPQpknH1kSM3HwsmxGeGSp0Ztja5hdyTYRc8BFz7iNQG9JLa5vEzBywCchTSddCscBrutzyyRiDA3vkRW4lbZzjguDfUUIEBhIW0qmW+UzGHBCIXZV+6Vvrxx0oke6TcGCRMHHHbwtUP8HnqFiU61FVrMT9OZqlxiSvtOgPtElUPGoNIdplTZqHPsFBGOJoBhJxP//hmbAolbKJjuZhKK5MhAY=
+        skinName: Icarusv
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NDYxMzExNywKICAicHJvZmlsZUlkIiA6ICJmNTg5YjY1M2QyNTE0MjhiYThjNzBmM2EzYTMwMTFmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJJY2FydXNWIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5MGIxY2QwY2IxMGRjYzNlOTliZjQxMDRiMTAzNjBjOTI3OWZhMGEyYWE3YmRlZDE0ODMzNTliMDQ3NGUxMWUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,skintrait,spawned,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '0':
+    metadata:
+      cached-skin-uuid: 7d99ffd7-809c-4970-bbc6-ad2bdc574281
+      cached-skin-uuid-name: treev
+    name: '&e&lGET HELP'
+    uuid: a7d64573-18d9-433b-9fc8-0be2434696bb
+    traits:
+      type: PLAYER
+      commandtrait:
+        commands:
+          '0':
+            command: help
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+      owner:
+        uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
+      location:
+        bodyYaw: -80.06555
+        world: world
+        x: '-34.5251'
+        y: '71.0'
+        z: '-5.5546'
+        yaw: '-80.0656'
+        pitch: '0.7975'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: CLZvqhfF6EJQ3K4NXSSEH7UeX7hmfwnytYoVKnvuJhKtMshCSTHfbuSDewgDxDBESdsCGAnrwVjn6hJrEKwpdxO24gZFf7PL5ZAt7Z+i7yJbB3osPx3Mbqfx1bYHw/Ic2sVHA9tmUx7delDrL8uGi00bHw/CgYERd0K8bNb1GVrYLLCYhRxA3bZoGfP+VGhLoy+dP1jPhhQgKhCs3t4nlY3GD0emQZIQUa96BB3Ijdib7M9IVJDAmGxd8kaN1AizSiDuVyub6ShHnNmGNeSQ0/c2Q0IReDDwqDtK/lLFKCOMO82wHdzov0KNJlIhcXqXh9qytPEoEaofxcX1SSpOJJasTIt1f69iOq7uthuQbb4iuTbyfLcx5rz5SuU8CA395wMr8YyiOXjzUJ2+Stspx+U4ZVTHiIGbZuiLHQ8XhlcOI/xCUdBRQwsFyjkc4TOBVVTnKrTx+BoupjK32kYtGITLkOI9rhuveMaXTWiSCn16vdThXlgMS7u1hZuOVp2PPs8gbBASAXXQtf2sKhMOixtmakiwGzWsGTJpD5p7YBVbbdFP4pmogKbeMp8/5VKfNaj6A0cP5wcijWVIbcSoxiFo7tCmwNkJMh+AX0I833+toHSoIIXyR7qy3wfYJBoIR9ddgbm061pqcgUCw65CNWRoKB8blIiOz1X5lfzZhb8=
+        skinName: Treev
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NDgwODEzOSwKICAicHJvZmlsZUlkIiA6ICI3ZDk5ZmZkNzgwOWM0OTcwYmJjNmFkMmJkYzU3NDI4MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmVldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNmMzOTMzZDdmZDZjMjdmOTRlZmY0ZTAyNjA5NjM2MTQ3MmY4ZjU3ODcxMDU2MGYxZmU5MTk2OTg2ODczMWViIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,skintrait,spawned,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
