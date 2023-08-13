@@ -65,23 +65,11 @@
             "pitch": 23.595161,
             "yaw": -150.78741
          }
-      },
-      "5": {
-         "CheckpointX": 5,
-         "CheckpointY": 90,
-         "CheckpointZ": 0,
-         "Location": {
-            "world": "world",
-            "x": 5.5,
-            "y": 91.5,
-            "z": 0.5,
-            "pitch": 69.27926,
-            "yaw": 178.7693
-         }
       }
    },
-   "Views": 9,
+   "Views": 14,
    "Checkpoints": 5,
+   "Completed": 1,
    "Creator": "Reecepbcups",
    "Name": "spawn"
 }

@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 5
+last-created-npc-id: 6
 npc:
   '5':
     metadata:
@@ -11,6 +11,11 @@ npc:
     traits:
       type: PLAYER
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: duels top
@@ -23,11 +28,6 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       owner:
         uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
       location:
@@ -45,7 +45,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NTM5NTExNywKICAicHJvZmlsZUlkIiA6ICI4OTJmOGJiNmRmNTA0OWRkYjA2YTkzYjlkZTcyZTI3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb2FoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5YTUwYjNiMThlMmU5M2IxZThhMWU5NjE4ZDJmZmRjOWNlMTE0ZThlYTU0NTA5MWQ2MTU2YmFlZmM2YjI0ODgiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9
         updateSkins: false
       spawned: true
-    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,skintrait,spawned,mounttrait
+    traitnames: owner,mounttrait,skintrait,spawned,location,inventory,type,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -59,6 +59,11 @@ npc:
     traits:
       type: PLAYER
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: gencode
@@ -71,11 +76,6 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       owner:
         uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
       location:
@@ -94,8 +94,9 @@ npc:
         signature: c7JPtLyQt2oKfeITSusaTp/qPO3VPidXdIxyHexh8jhw0ov7fh+ZyKsnAI/pum9M/gBQpyue5cMpGQivfaNO2Cc6Xy0rPA8hQ9+eNLLMgnGz8tN4hxh+yjYE4pXoMxgdK+S2XXAM0IaJrNncyzY80NhVdZ5LqQyIQTLiN0eEYBJGH6vWXD9qtAWgvWWmvwoi8C6QR5/u4/4ChKOUzqeFHBIwS0QvfHY8Acfuybntd3jtiCrOuvsffOqRStKpgRNYHcRdWHPnnJ2/7fvi4RiR9X04vSwGA+fkXECFUwk9T4DoI9P+9Ifs0PnJA64j6Bs3/YMR5ZSExHZEABmT7oEoK6R11mwVZJ63Gaj7P9xYzlKjZyNi89nlsKzs4nTzRZcpeW+QQMEySEWrguhI9WoX7iJT2Q5aMK4QENi3KY2ifdemGzgC8fYEAe90D8p8dc7zvSHcLL7lgcGghn1pD/vX7CAOB2aklDec38VkediJVIMzGzLhSld4r/lDL1VSerY1/fXgPjnzJZ5UlEMrXe3XA2xUHtDqSnVn1t0t72YTjxFuqgTMCGRpeILj1nzD771Doax2o/UIoJyblRK/8JfTRiBjpetX8kdiBuZWn9/ik10P6GWZ+EH1xlL+d/w2syT7XKPxsKZXWkswEb756XyYhV59cX37b1aRnrjJEbxZ1ew=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NTMyNTEwNCwKICAicHJvZmlsZUlkIiA6ICJjNTBlMzZmYWQyMzI0N2YxOTE1ZDQxM2VkZDc1ZGY4OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYWxsZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM5Mzk4YTYwOTc1ZTExNjFkOWQ4MjM3OWRiODdiMWY3MGI4YTM5ZDk2ODFiMTg5YTMzYzQyYWU5YjA3MWY0MSIKICAgIH0KICB9Cn0=
         updateSkins: false
+        skinName: wallet
       spawned: true
-    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,hologramtrait,skintrait,spawned,mounttrait
+    traitnames: hologramtrait,owner,mounttrait,spawned,skintrait,location,inventory,type,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -109,6 +110,11 @@ npc:
     traits:
       type: PLAYER
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: duels
@@ -121,11 +127,6 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       owner:
         uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
       location:
@@ -143,7 +144,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NDYxMzExNywKICAicHJvZmlsZUlkIiA6ICJmNTg5YjY1M2QyNTE0MjhiYThjNzBmM2EzYTMwMTFmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJJY2FydXNWIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg5MGIxY2QwY2IxMGRjYzNlOTliZjQxMDRiMTAzNjBjOTI3OWZhMGEyYWE3YmRlZDE0ODMzNTliMDQ3NGUxMWUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
         updateSkins: false
       spawned: true
-    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,skintrait,spawned,mounttrait
+    traitnames: owner,mounttrait,skintrait,spawned,location,inventory,type,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -157,6 +158,11 @@ npc:
     traits:
       type: PLAYER
       commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
         commands:
           '0':
             command: help
@@ -169,11 +175,6 @@ npc:
             delay: 0
             cost: '-1.0'
             experienceCost: -1
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1
-        hideErrorMessages: false
-        persistSequence: false
       owner:
         uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
       location:
@@ -191,7 +192,55 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2NDgwODEzOSwKICAicHJvZmlsZUlkIiA6ICI3ZDk5ZmZkNzgwOWM0OTcwYmJjNmFkMmJkYzU3NDI4MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUcmVldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNmMzOTMzZDdmZDZjMjdmOTRlZmY0ZTAyNjA5NjM2MTQ3MmY4ZjU3ODcxMDU2MGYxZmU5MTk2OTg2ODczMWViIgogICAgfQogIH0KfQ==
         updateSkins: false
       spawned: true
-    traitnames: type,scoreboardtrait,commandtrait,owner,location,inventory,skintrait,spawned,mounttrait
+    traitnames: owner,mounttrait,spawned,skintrait,location,inventory,type,scoreboardtrait,commandtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '6':
+    metadata:
+      cached-skin-uuid: 535d53cf-99de-403d-a1e7-06d5777dd4d6
+      cached-skin-uuid-name: jay
+    name: '&e&lPARKOUR'
+    uuid: d7f243df-5107-4613-85a4-9afa7cc5f16a
+    traits:
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: pa join spawn
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+            cost: '-1.0'
+            experienceCost: -1
+      owner:
+        uuid: 79da3753-1b9e-4340-8a0f-9ea975c17fe4
+      location:
+        bodyYaw: 179.47635
+        world: world
+        x: '-27.4174'
+        y: '70.0'
+        z: '9.6326'
+        yaw: '179.4763'
+        pitch: '-0.1418'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: nPUM9Pn7PYOu2BX99/7YziAx/hgg+UVK33Hs3IC5EVf/O0/MnMjsjO0CKouweeUgQxpI0stBeTs2cMliaeZpiRUKi/u6dDeozVdM/59tXR8hp2gJqmA38OLjUgUHtPoug5ijWvJOpKkYwQbjrVWCohuHK29rZzaj7YCBDlAtEbt23XWTuYOIQvn+PzcjdHbVUAZvJ95KOhI+uYa4AM/obSNeFbiUcaYrng1d90CsRaVwTYLjACUMDlX746mZlpMAu7g163Zmm8ZI6VfBTAoaihm3T4sXijNHGI3HBgxh5Nks9TNtHWDiSw1AOwlreUoQc3d7zYZ7zO3b3i/jL0bAXv5xN/xD3cWUBCk93SX6sLQpI2FinQPgp7lRSYBf6d8WEi3pSHCAZy0XyAgLivQw/YkymCQYVz785K0JU5hh+JvEYJTpq5aHkWdeOGe2F10Zw9BL6gwFVd00pWuei0SdmfLbc3w14WioM8hvvZGUuznnFBvhkm/xWZkX9QlCeq/ZyVq2btksM6xqMo3V99hbHZUIk/gJ2fJwyqqtMcSJHoDxQLi4gaCvaLh+MssPoD93v3dVgXOYHzuN4AP6bhlBwm+qngWNyG6I9W74PCtlXuTgUF17v+TvqTNLR3aDYgCYe61HUXXa1nqG1R0ZB++3byLadvcDH+t+SNeyKz3tNVU=
+        skinName: jay
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY5MTg2ODkwNDA1NiwKICAicHJvZmlsZUlkIiA6ICI1MzVkNTNjZjk5ZGU0MDNkYTFlNzA2ZDU3NzdkZDRkNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKYXkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxYjAyZGVhMGVkMzgwZDQwMGJjOWQ4ZGY0N2JjY2ZjZjhmMWExMDA2OGU2ODRlNmJiNzFlNTc2YTNlNjM4NyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      spawned: true
+    traitnames: owner,mounttrait,skintrait,spawned,location,inventory,type,scoreboardtrait,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
