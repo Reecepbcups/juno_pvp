@@ -26,6 +26,9 @@ plugins/Parkour/players/
 plugins/Parkour/sessions/
 plugins/Parkour/Parkour.log
 
+# Hide sensitive information from craft-integration plugin
+plugins/craft-integration/config.yml
+
 # NPCs
 plugins/Citizens/lib/
 
