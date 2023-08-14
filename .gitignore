@@ -32,6 +32,9 @@ plugins/craft-integration/config.yml
 # NPCs
 plugins/Citizens/lib/
 
+# Spark
+plugins/spark/tmp/
+
 plugins/LuckPerms/libs
 plugins/LuckPerms/translations
 # May have to ignore the db as well? Unsure of size as we scale. Will move to MongoDB / Postgres in the future.
