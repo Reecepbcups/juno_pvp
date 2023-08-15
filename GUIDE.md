@@ -47,6 +47,7 @@ You can type commands by pressing the letter 't' then '/' slash, or by pressing 
 
 - /duels *(Main menu for the server)*
 - /help *(list of useful commands)*
+- /info *(Developer endpoints, Open Sourced plugins & Server)*
 - /wallet *(current wallet, balance, pending Txs)*
 
 ---

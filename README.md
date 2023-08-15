@@ -1,8 +1,8 @@
 # CosmosSDK PvP
 
-[Play Guide Walkthrough](./GUIDE.md)
+[Play Guide Walkthrough & Setup](./GUIDE.md)
 
-CosmosSDK PvP is a soon-to-be Minecraft server launched on Juno.
+CosmosSDK PvP is a Minecraft server launched on Juno *(not affiliated with Mojang Studios)*
 
 The idea is as follows:
 
@@ -18,7 +18,7 @@ This will be done by modifying my integration plugin found here
 
 This plugin is now in the standalone repo
 
-    https://github.com/Reecepbcups/juno-minecraft-integration
+    https://github.com/Reecepbcups/cosmos-minecraft-integration
 
 ---
 
