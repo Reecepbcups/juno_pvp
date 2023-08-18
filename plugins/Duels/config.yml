@@ -64,10 +64,10 @@ Kits:
       Leggings: '{ material:iron_leggings amount:1 meta:{ } }'
       Boots: '{ material:iron_boots amount:1 meta:{ } }'
     Inventory:
-    - '{ material:iron_sword amount:1 meta:{ } }'
+    - '{ material:wooden_sword amount:1 meta:{ } }'
     - '{ material:BOW amount:1 meta:{  } }'
-    - '{ material:GOLDEN_APPLE amount:16 meta:{  } }'
-    - '{ material:bread amount:64 meta:{ } }'
+    - '{ material:GOLDEN_APPLE amount:4 meta:{  } }'
+    - '{ material:bread amount:32 meta:{ } }'
     - '{ material:ARROW amount:8 meta:{  } }'
 
 Arenas:
