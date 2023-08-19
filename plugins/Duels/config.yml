@@ -95,6 +95,7 @@ Arenas:
       Z: 264.0410179072403
       Yaw: -91.083145
       Pitch: 43.740467
+    utoken-bet-amount: 1000000
   '2':
     Name: desert
     Countdown-Seconds: 15
@@ -119,6 +120,7 @@ Arenas:
       Z: 266.4145278637463
       Yaw: -90.98876
       Pitch: 35.27307
+    utoken-bet-amount: 1000000
   '3':
     Name: ice
     Countdown-Seconds: 15
@@ -143,6 +145,7 @@ Arenas:
       Z: 265.28837622124394
       Yaw: -90.153534
       Pitch: 39.040768
+    utoken-bet-amount: 1000000
   '4':
     Name: colorful
     Countdown-Seconds: 15
@@ -167,6 +170,7 @@ Arenas:
       Z: 261.7311210339001
       Yaw: -90.35538
       Pitch: 36.026463
+    utoken-bet-amount: 5000000
   '5':
     Name: hell
     Countdown-Seconds: 15
@@ -191,6 +195,7 @@ Arenas:
       Z: 264.45549549964426
       Yaw: -89.69915
       Pitch: 41.490788
+    utoken-bet-amount: 5000000
   '6':
     Name: castle
     Countdown-Seconds: 15
@@ -215,3 +220,54 @@ Arenas:
       Z: 264.571487875499
       Yaw: -89.33698
       Pitch: 46.67042
+    utoken-bet-amount: 5000000
+  '7':
+    Name: village
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 20.289606117818238
+      Y: 73.0
+      Z: 480.882232190559
+      Yaw: -0.6466054
+      Pitch: -0.7089486
+    Spawn-Two:
+      World: world
+      X: 20.561432805279477
+      Y: 73.0
+      Z: 525.0157611379865
+      Yaw: -179.99367
+      Pitch: 0.9865244
+    Lobby:
+      World: world
+      X: 55.950060512174325
+      Y: 127.0
+      Z: 500.3895703249145
+      Yaw: 89.95529
+      Pitch: 41.018723
+    utoken-bet-amount: 25000000
+  '8':
+    Name: gladiator
+    Countdown-Seconds: 15
+    Spawn-One:
+      World: world
+      X: 266.4530417976715
+      Y: 37.0
+      Z: 514.1785872414031
+      Yaw: 178.2997
+      Pitch: 0.94206995
+    Spawn-Two:
+      World: world
+      X: 265.5864078760165
+      Y: 37.0
+      Z: 477.5002900864966
+      Yaw: 0.18989637
+      Pitch: 1.1308491E-4
+    Lobby:
+      World: world
+      X: 239.07139295664206
+      Y: 64.0
+      Z: 509.56645412628365
+      Yaw: -91.086624
+      Pitch: 19.686773
+    utoken-bet-amount: 25000000
