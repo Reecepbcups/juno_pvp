@@ -2,6 +2,8 @@
 
 This document outlines the basic flows & requirements to play on the server.
 
+Walkthrough Video: https://youtu.be/SWdzs5cknEE?si=seSzWsrT5rOAI4ZA
+
 ## Requirements:
 - [Minecraft Java Edition (Official) 1.20.1 latest](https://www.minecraft.net/en-us/store/minecraft-java-bedrock-edition-pc)
 - [Keplr wallet Extension](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap)
