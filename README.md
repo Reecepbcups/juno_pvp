@@ -31,7 +31,7 @@ This plugin is now in the standalone repo
 sudo apt update
 sudo apt-get -y upgrade
 
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 nvm install 20.5.0
 
 echo "termcapinfo xterm* ti@:te@" > ~/.screenrc
@@ -69,6 +69,9 @@ sudo nano /etc/redis/redis.conf
 # # requirepass foobared -> requirepass <password>
 sudo systemctl status redis
 
+# or docker
+redis.sh
+
 # Increase vm map count
 sysctl -w vm.max_map_count=262144
 echo "vm.max_map_count=262144" >> /etc/sysctl.conf
@@ -99,4 +102,24 @@ sudo systemctl stop mongod && sudo systemctl daemon-reload && sudo systemctl sta
 # mongosh -u dbaccount -p --authenticationDatabase admin
 # mongosh mongodb://dbaccount:password@127.0.0.1:27017/admin # URI
 
+```
+
+
+## Start Steps
+
+(Nov 9, 2024)
+
+```bash
+# Cosmos-Minecraft-Integration
+spawn new cwnetwork --consensus=pos --wallet-prefix=cosmos --binary=simd --denom=token --org=reecepbcups --disable=wasm-lc,ratelimit
+
+# cd cwnetwork && make local-image # TODO: PROD WITH IBC
+make sh-testnet
+
+cd ./api
+docker compose up # launches redis, mongodb, and the API.
+
+cd c-webapp
+npm i
+npm run dev
 ```

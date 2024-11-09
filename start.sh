@@ -3,8 +3,8 @@
 
 # server=paper-1.18.2-388.jar
 server=paper-1.20.1-111.jar
-MAXRAM=8024M 
-MINRAM=8024M 
+MAXRAM=8024M
+MINRAM=8024M
 
 while [ true ]; do
     java -Xmx$MAXRAM -Xms$MINRAM -jar $server nogui
